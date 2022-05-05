@@ -1,0 +1,43 @@
+nav {
+  height: 5rem;
+  width: 100%;
+  color: black;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+ nav ul {
+  float: right;
+  margin-right: 4rem;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 2rem;
+  margin: 0.5rem 5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+     /* text-decoration: underline; */
+     color: #1AE400;
+     transition: 0.7s;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  margin-top: 1.5rem;
+  font-weight: bolder;
+  line-height: 2rem;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+}
