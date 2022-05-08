@@ -1,6 +1,15 @@
-@import url('https://db.onlinewebfonts.com/c/1ccdd11fd9d1d81756c40d7acb17d0aa?family=Circular+Spotify+Tx+T+Light');
+/* @import url('https://db.onlinewebfonts.com/c/1ccdd11fd9d1d81756c40d7acb17d0aa?family=Circular+Spotify+Tx+T+Light'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Londrina+Outline&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap');
+
+@font-face {font-family: "Circular Spotify Tx T Light";
+  src: url("http://db.onlinewebfonts.com/t/1ccdd11fd9d1d81756c40d7acb17d0aa.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/1ccdd11fd9d1d81756c40d7acb17d0aa.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://db.onlinewebfonts.com/t/1ccdd11fd9d1d81756c40d7acb17d0aa.woff2") format("woff2"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/1ccdd11fd9d1d81756c40d7acb17d0aa.woff") format("woff"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/1ccdd11fd9d1d81756c40d7acb17d0aa.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("http://db.onlinewebfonts.com/t/1ccdd11fd9d1d81756c40d7acb17d0aa.svg#Circular Spotify Tx T Light") format("svg"); /* iOS 4.1- */
+}
 
 @keyframes wave-animation {
   0% { transform: rotate( 0.0deg) }
@@ -150,7 +159,11 @@ code {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   position: relative;
   overflow: hidden;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 0px 50px rgba(19, 170, 240, 0.5);
 }
 .column {
   float: left;
