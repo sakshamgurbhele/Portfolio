@@ -137,10 +137,10 @@ code {
 }
 .card {
   display: inline-block;
-  width: 40rem;
+  width: 38rem;
   text-align: center;
   cursor: pointer;
-  height: 25rem;
+  height: 23rem;
   margin-left: 5rem;
   margin-top: 4rem;
   border-radius: 40px;
@@ -154,7 +154,12 @@ code {
   height: 100%;
 }
 .card1 {
-  background-image: image();
+  background-image: url(https://raw.githubusercontent.com/sakshamgurbhele/portfolio/main/src/Images/heart.webp);
+  background-size: cover;
+}
+.card2 {
+  background-image: url(https://raw.githubusercontent.com/sakshamgurbhele/portfolio/main/src/Images/playlistify.png);
+  background-size: cover;
 }
 .about-section {
   margin-left: 8rem;
