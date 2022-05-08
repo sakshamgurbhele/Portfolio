@@ -1,10 +1,9 @@
 import handwave from "./Images/hand_wave.png";
 import blur from "./Images/blur.png";
-import heart from "./Images/heart.webp";
-import heart1 from "./Images/ai.webp";
+import ticket from "./Images/ticket.png";
+import ai from "./Images/ai.webp";
 import heart2 from "./Images/playlistify.png";
 import diabetes from "./Images/diabetes.png";
-// import './App.css';
 import React from "react";
 import "./index.css";
 import navbar from "./Components/navbar.js";
@@ -51,25 +50,26 @@ function App() {
           <a href=""> <li className="card4 card" ><img src={heart2}></img></li> </a>
         </ul> */}
         <div class="column">
-          <a href="" target="_blank">
+          <a href="https://github.com/sakshamgurbhele/heart-disease-prediction" target="_blank">
             <div class="card">
               <h3>Heart Disease Prediction ♥️ </h3>
-              <img className="card-image" src={heart}></img>
+              <img className="card-image" src={ai}></img>
             </div>
           </a>
         </div>
 
         <div class="column">
-          <a href="" target="_blank">
+          <a href="https://github.com/sakshamgurbhele/recursion/tree/main" target="_blank">
             <div class="card">
-              <h3>Diabetes Prediction 💊</h3>
-              <img className="card-image" src={diabetes}></img>
+              <h3>Ticket System 🎟</h3>
+              <img className="card-image" src={ticket}></img>
             </div>
           </a>
         </div>
 
+
         <div class="column">
-          <a href="" target="_blank">
+          <a href="https://github.com/sakshamgurbhele/playlist-ify" target="_blank">
             <div class="card">
               <h3>Playlist-ify 🎵</h3>
               <img className="card-image" src={heart2}></img>
@@ -78,19 +78,20 @@ function App() {
         </div>
 
         <div class="column">
-          <a href="" target="_blank">
+          <a href="https://github.com/sakshamgurbhele/playlist-ify" target="_blank">
             <div class="card">
-              <h3>Ticket System 🎟</h3>
-              <img className="card-image" src={heart2}></img>
+              <h3>Diabetes Prediction 💊</h3>
+              <img className="card-image" src={diabetes}></img>
             </div>
           </a>
         </div>
-      </div>
+
+      </div> 
       <div className="about-section">
-        <div className="about" id="about" >
-          here i am 
+        <div className="about">
+        <span class="anchor" id="about">.</span>
         </div>
-        <h1>About Me</h1>
+        <h1 >About Me</h1>
         <p>
           On my second year of Information Technology Bachelor and <br />{" "}
           learning new technologies. <br />
@@ -101,7 +102,7 @@ function App() {
         </p>
       </div>
       <div className="stackwork">
-        <div className="skills"></div>
+        {/* <div className="skills"></div> */}
         <div className="liner">
           READY TO CRAFT MEANINGFUL DIGITAL EXPERIENCES.
         </div>
