@@ -1,8 +1,8 @@
 import handwave from "./Images/hand_wave.png";
 import blur from "./Images/blur.png";
 import ticket from "./Images/ticket.png";
-import ai from "./Images/ai.webp";
-import heart2 from "./Images/playlistify.png";
+import ai from "./Images/ai-heart.jpeg";
+import playlistify from "./Images/playlist.jpeg";
 import diabetes from "./Images/diabetes.png";
 import React from "react";
 import "./index.css";
@@ -72,7 +72,7 @@ function App() {
           <a href="https://github.com/sakshamgurbhele/playlist-ify" target="_blank">
             <div class="card">
               <h3>Playlist-ify 🎵</h3>
-              <img className="card-image" src={heart2}></img>
+              <img className="card-image" src={playlistify}></img>
             </div>
           </a>
         </div>
@@ -113,13 +113,12 @@ function App() {
           <p>
             2020-2024. <br />{" "}
             <span className="grey">
-              Information Technology. <br /> Rajiv Gandhi Institute of
-              Technology, Mumbai
+              Information Technology. <br /> University of Mumbai, Mumbai
             </span>{" "}
           </p>
         </div>
         <div className="contact">
-          <h1>Contact ↗️</h1>
+          <h1>Contact <span>&#8599;</span></h1>
           <ul className="socials">
             <li>
               <a
@@ -162,6 +161,14 @@ function App() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="footer">
+        <a href="">© 2022 Saksham Gurbhele </a>
+        <a href="https://open.spotify.com/user/31tmpjejnkt3x7qessjlnwsk7o34" className="right">
+          {/* code icon in html */}
+          <span>&#60;</span><span>&#47;</span><span>&#62; </span>
+          with 💖 by skshm
+        </a>
       </div>
     </div>
   );
